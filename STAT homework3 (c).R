@@ -1,7 +1,7 @@
 library(DT)
 library(shiny)
 library(tidyverse)
-airbnb <- read.csv("airbnb.csv")
+airbnb <- read.csv("https://raw.githubusercontent.com/jxu626/data/main/airbnb.csv")
 
 library(ggeasy)
 airbnb_new<-airbnb[,c(1,2,6,7,8,9,10,11,17)]%>%
