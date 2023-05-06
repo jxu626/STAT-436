@@ -71,15 +71,6 @@ text_eps = function() {
 Users can select a beginning and ending year to depict on the bar graphs below. The first bar graph depicts the Environmental Policy Stringency Indexes of countries where data from the starting and ending year of the Year Range slider are both available. The second graph shows the difference between the two selected years. Both graphs are sorted based on the difference shown in the second graph.")
 }
 
-header_gg = function() {
-  headerPanel("Global Greenhouse Gas Emissions by Country")
-}
-text_gg = function() {
-  mainPanel("This data represents greenhouse gas emissions of countries from the years of 1990-2020.
-              
-Users can select one type of emission source and a time range to depict on the heat map below. The heat map shows the value for the selected emission type and the bar graph shows the average of all the emission types over the given time range. Note: There are some datapoints missing for certain types of CO2 emission sources for some years and countries.")
-}
-
 ui <- fluidPage(
   setBackgroundColor(
     color = "lightgrey",
