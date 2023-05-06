@@ -1,6 +1,6 @@
 ---
 title: "Project Milestone 3"
-author: "JINWEN XU"
+author: "Group3: Evelyn Tollar, Emma Chen, Andrea Chen, Maya Barron, Jinwen Xu"
 date: "2023-05-02"
 output:
   html_document: default
