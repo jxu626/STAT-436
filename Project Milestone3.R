@@ -253,7 +253,7 @@ server <- function(input, output) {
       geom_col(position="dodge", width=0.7)+
       geom_text(aes(label=death_per_million), position=position_dodge(width=0.75), hjust=0.4, vjust=-0.65, size=3)+
       scale_y_continuous(expand = c(0, 0, 0.1, 0.1))+
-      labs(x="Country", y="Premature Death per Million", title = "Top 10 Countries with Most Premature Death Inhabitant Caused by PM ")+
+      labs(x="Country", y="Premature Death per Million", title = "Premature Death Per Million Inhabitants of the Top10 Countries with Most Premature Death ")+
       theme_bw()+
       theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1,size=15),
             axis.ticks = element_blank(),
